@@ -1,0 +1,23 @@
+flask==3.1.3
+python-dotenv==1.2.2
+gunicorn==26.0.0
+langchain==1.3.11
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-core==1.4.8
+langchain-chroma==1.1.0
+chromadb==1.5.9
+
+# Choose ONE provider by setting the matching API key in .env (see .env.example).
+# Both packages can be installed at once with no conflict if you want the option
+# to switch providers later.
+langchain-openai==1.3.3
+langchain-google-genai==4.2.6
+langchain-mistralai==1.1.6
+
+# Live web search (no API key needed)
+ddgs==9.14.4
+
+# Extra document format support (PDF, Word)
+pypdf==6.14.2
+docx2txt==0.9

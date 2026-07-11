@@ -1,0 +1,48 @@
+Cloud Computing and DevOps
+
+Cloud Computing delivers computing resources over the internet on demand. Instead of owning physical infrastructure, organizations rent computing power, storage, and services from cloud providers.
+
+Cloud Service Models
+Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet. Users manage applications, data, runtime, and middleware. The provider manages virtualization, servers, storage, and networking. Examples: AWS EC2, Google Cloud Compute Engine, Azure Virtual Machines.
+
+Platform as a Service (PaaS) provides a complete development and deployment environment in the cloud. Users focus on applications and data. The provider manages infrastructure, middleware, runtime, and development tools. Examples: Heroku, Google App Engine, AWS Elastic Beanstalk.
+
+Software as a Service (SaaS) delivers applications over the internet on a subscription basis. Users access applications through browsers. The provider manages everything. Examples: Salesforce, Microsoft 365, Slack, Zoom.
+
+Deployment Models
+Public Cloud: Services are available to the general public over the internet. Cost-effective and scalable. Shared resources mean less control. Best for variable workloads.
+
+Private Cloud: Infrastructure dedicated to a single organization. Greater control and security but higher costs. Best for sensitive data and strict compliance requirements.
+
+Hybrid Cloud: Combines public and private clouds. Organizations keep sensitive data on-premises while leveraging public cloud for other workloads. Provides flexibility and optimization.
+
+DevOps and Continuous Integration/Deployment
+DevOps combines software development and IT operations, emphasizing collaboration, automation, and integration. It reduces the gap between developers and operations teams.
+
+Continuous Integration (CI) automatically tests and integrates code changes. Developers commit code frequently. Automated builds and tests catch issues early. Tools: Jenkins, GitLab CI, GitHub Actions.
+
+Continuous Delivery (CD) automatically prepares code for production. Builds are deployable at any time but require manual approval. Ensures code quality before release.
+
+Continuous Deployment automatically deploys to production. Every successful build is deployed immediately. Enables rapid iteration and feedback.
+
+Infrastructure as Code (IaC) treats infrastructure as programmable resources. Configuration is version controlled and reproducible. Tools: Terraform, CloudFormation, Ansible, Kubernetes.
+
+Containerization
+Containers package applications with dependencies into isolated, portable units. They're lightweight compared to virtual machines, starting in seconds rather than minutes.
+
+Docker is the most popular containerization platform. Images contain the application, libraries, and dependencies. Containers run images. Registries store images for distribution.
+
+Kubernetes orchestrates containers at scale. It automates deployment, scaling, and management. Services run reliably across clusters of machines. Handles load balancing, storage, and updates.
+
+Microservices Architecture
+Microservices decompose applications into small, independent services. Each service handles a specific business capability. Services communicate via APIs or message queues. Benefits include independent scaling, easier updates, and technology flexibility. Challenges include increased complexity and distributed system issues.
+
+Monitoring and Logging
+Observability ensures systems remain healthy and performant. Metrics track system performance. Logs record events and errors. Traces show request flows through systems.
+
+Popular tools: Prometheus for metrics, ELK stack (Elasticsearch, Logstash, Kibana) for logging, Jaeger for tracing.
+
+Alerting notifies teams when issues occur. Thresholds trigger alerts automatically. This enables rapid incident response and reduces downtime.
+
+Security in the Cloud
+Data encryption protects sensitive information in transit and at rest. Identity and Access Management (IAM) controls who can access resources. Network security includes firewalls, VPCs, and DDoS protection. Compliance monitoring ensures adherence to regulations like GDPR and HIPAA.
